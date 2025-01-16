@@ -10,10 +10,12 @@ const ResponsePage = ({ message }) => {
 
   return (
     <div className="response-page">
-      <h1 className="response-message">{message}</h1>
-      <button onClick={handleRetry} className="retry-button">
-        Try Again?
-      </button>
+      <h2 className="response-message">{message}</h2>
+      <div className='retry-container'>
+        <button onClick={handleRetry} className="retry-button">
+          Try Again?
+        </button>
+      </div>
     </div>
   );
 };
