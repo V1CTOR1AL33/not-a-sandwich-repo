@@ -107,7 +107,7 @@ function App() {
           />
           <Route
             path="/response"
-            element={<ResponsePage message={responseMessage} setHasImage={setHasImage} hasImage={hasImage}/>}
+            element={<ResponsePage message={responseMessage} setHasImage={setHasImage} hasImage={hasImage} />}
           />
         </Routes>
         <div>

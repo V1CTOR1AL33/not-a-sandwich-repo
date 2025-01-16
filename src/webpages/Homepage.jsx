@@ -20,7 +20,7 @@ const HomePage = ({ onSubmit, setHasImage, hasImage }) => {
         <UploadImage setHasImage={setHasImage} hasImage={hasImage} />
       </div>
       <div className="submit-container">
-      <button className="submit-button" onClick={handleSubmit}>
+      <button className="submit-button" onClick={handleSubmit} >
           Submit
         </button>
       </div>
