@@ -59,35 +59,9 @@ Remember, life is short. Eat sandwiches responsibly.
 
 ## Installation
 
-### Step 1: Clone the repository
+checkout https://not-a-sandwich-repo.onrender.com/
 
-```bash
-git clone https://github.com/V1CTOR1AL33/not-a-sandwich
-```
-
-### Step 2: Navigate to the project folder
-
-```bash
-cd not-a-sandwich-repo
-```
-
-### Step 3: Install dependencies
-
-```bash
-npm install
-```
-
-### Step 4: Run the web app
-
-```bash
-npm run dev
-```
-
-### Step 5: Open your browser
-
-Go to `http://localhost:3000` and behold the power of sandwich recognition!
-
----
+Have fun :)
 
 ## Usage
 
