@@ -58,8 +58,6 @@ Remember, life is short. Eat sandwiches responsibly.
 
 ## Installation
 
-### Step 1:
-
 checkout https://not-a-sandwich-repo.onrender.com/
 
 Have fun :)
