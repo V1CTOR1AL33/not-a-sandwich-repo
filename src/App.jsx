@@ -9,7 +9,7 @@ import Modal from 'react-modal';
 function App() {
 
   const [hasImage, setHasImage] = useState(false); 
-  const [responseMessage, setResponseMessage] = useState('');
+  const [responseMessage, setResponseMessage] = useState(''); 
   const [showModal, setShowModal] = useState(false);
 
   const handleMouseEnter = () => {
@@ -72,7 +72,7 @@ function App() {
     "Yes, NOTHING is a sandwich. ", 
     "No, NOTHING is not a sandwich. ", 
     "If nothing’s a sandwich, then everything’s a sandwich. Think about it. ", 
-    "Please upload something. Anything. <br> A sandwich would be ideal. ", 
+    "Please upload something. Anything. A sandwich would be ideal. ", 
     "Sandwiches can’t upload themselves, you know."
   ];
 
@@ -103,11 +103,26 @@ function App() {
           />
         </Routes>
         <div>
-          <button onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className="aboutButton"> About </button>
-        
-          {showModal && <Modal isOpen={showModal} className="modal" overlayClassName="overlay"> 
-            <p>have you ever wondered if something is a sandwich?</p>
-          </Modal>}
+          
+        </div>
+        <div className="about-container">
+          <button
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+            className="about-button"
+          >
+            ?
+          </button>
+          {showModal && (
+            <Modal
+              isOpen={showModal}
+              className="modal"
+              overlayClassName="overlay"
+              onRequestClose={handleMouseLeave}
+            >
+              <p>Have you ever wondered if something is a sandwich? Try this out! </p>
+            </Modal>
+          )}
         </div>
       </div>
     </Router>
