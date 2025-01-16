@@ -10,7 +10,7 @@ const ResponsePage = ({ message }) => {
 
   return (
     <div className="response-page">
-      <h2 className="response-message">{message}</h2>
+      <h3 className="response-message">{message}</h3>
       <div className='retry-container'>
         <button onClick={handleRetry} className="retry-button">
           Try Again?
