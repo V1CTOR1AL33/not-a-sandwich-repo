@@ -22,6 +22,11 @@ const HomePage = ({ onSubmit }) => {
           Submit
         </button>
       </div>
+      <div className='about-container'>
+        <button className='about-button' onClick={() => alert("This is the About button.")}>
+          ?
+        </button>
+      </div>
     </div>
   );
 };

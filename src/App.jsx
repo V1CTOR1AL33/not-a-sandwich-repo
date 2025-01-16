@@ -62,7 +62,7 @@ function App() {
     "Yes, NOTHING is a sandwich. ", 
     "No, NOTHING is not a sandwich. ", 
     "If nothing’s a sandwich, then everything’s a sandwich. Think about it. ", 
-    "Please upload something. Anything. A sandwich would be ideal. ", 
+    "Please upload something. Anything. <br> A sandwich would be ideal. ", 
     "Sandwiches can’t upload themselves, you know."
   ];
 
@@ -75,7 +75,6 @@ function App() {
     }
   }
   
-
   return (
     <Router>
       <div className="app-container">

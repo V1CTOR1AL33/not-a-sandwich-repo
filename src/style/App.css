@@ -30,6 +30,22 @@ h1 {
   color: #000;
 }
 
+h2 {
+  font-size: 1.25rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: #000;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin: 20px 0;
+  color: #000;
+}
+
 .submit-container {
   display: flex;
   flex-direction: column;
@@ -48,19 +64,20 @@ h1 {
   text-align: center;
 }
 
-.submit-icon {
-  width: 100px;
-  height: 100px;
-  margin: 20px 0;
+.about-container {
+  position: fixed;
+  bottom: 20px;
+  right: 80px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #fddbcf;
-  border-radius: 50%;
+  text-align: center;
 }
 
 .submit-button,
-.retry-button {
+.retry-button,
+.about-button {
   background-color: #e2b3ad;
   color: black;
   border: none;
@@ -75,7 +92,8 @@ h1 {
 }
 
 .submit-button:hover,
-.retry-button:hover {
+.retry-button:hover,
+.about-button:hover {
   background-color: #e76f51;
   transform: translateY(-2px);
 }
