@@ -30,14 +30,25 @@ h1 {
   color: #000;
 }
 
-.submit-container,
-.retry-container {
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: 20px;
   text-align: center;
 }
 
-.submit-icon,
-.retry-button {
+.retry-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit-icon {
   width: 100px;
   height: 100px;
   margin: 20px 0;
@@ -69,28 +80,26 @@ h1 {
   transform: translateY(-2px);
 }
 
-.upload-button {
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
+.upload-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 50%;
+  cursor: pointer;
 }
 
-.upload-button svg {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.2s ease-in-out;
-}
-
-.upload-button:hover svg {
-  transform: scale(1.1);
+.upload-container:hover {
+  transform: scale(1.01);
 }
 
 .response-container {
   margin-top: 30px;
   text-align: center;
+  word-wrap: break-word;
+  width: 90%;
 }
 
 footer {
@@ -116,4 +125,15 @@ footer button {
 
 footer button:hover {
   transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  .submit-button,
+  .retry-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+  }
 }

@@ -11,9 +11,11 @@ const ResponsePage = ({ message }) => {
   return (
     <div className="response-page">
       <h1 className="response-message">{message}</h1>
-      <button onClick={handleRetry} className="retry-button">
-        Try Again?
-      </button>
+      <div className='retry-container'>
+        <button onClick={handleRetry} className="retry-button">
+          Try Again?
+        </button>
+      </div>
     </div>
   );
 };

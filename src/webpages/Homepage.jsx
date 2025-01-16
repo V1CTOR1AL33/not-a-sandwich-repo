@@ -10,13 +10,11 @@ const HomePage = ({ onSubmit }) => {
     navigate('/response');
   };
 
-  console.log("Rendering HomePage...");
-
   return (
     <div>
       <h1>Is this a sandwich?</h1>
       <h2>Upload a potential sandwich</h2>
-      <div className="upload-button">
+      <div className="upload-container">
         <img src={uploadIcon} alt="Upload Icon" />
       </div>
       <div className="submit-container">
