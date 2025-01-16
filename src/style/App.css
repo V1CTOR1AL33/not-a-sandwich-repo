@@ -175,3 +175,10 @@ h3 {
   width: 300px;
   height: 300px;
 }
+
+/* for upload image */
+
+.image-upload>input {
+  display: none;
+  cursor: pointer;
+}

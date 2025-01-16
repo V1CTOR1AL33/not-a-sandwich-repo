@@ -28,4 +28,4 @@ About: Hover above the question mark button, and a modal pop-up will appear expl
 Upload an image, and press submit. To read about the web app, hover above the question mark button.
 
 ## Acknowledgements
-This project is frontend-based and uses [React](https://reactjs.org/)
+This project is frontend-based and uses [React](https://reactjs.org/) and Vite

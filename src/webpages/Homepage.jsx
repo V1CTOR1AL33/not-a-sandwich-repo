@@ -16,7 +16,6 @@ const HomePage = ({ onSubmit, setHasImage, hasImage }) => {
       <h1>Is this a sandwich?</h1>
       <h2>Upload a potential sandwich!</h2>
       <div className="upload-container">
-        <img src={uploadIcon} alt="Upload Icon" />
         <UploadImage setHasImage={setHasImage} hasImage={hasImage} />
       </div>
       <div className="submit-container">

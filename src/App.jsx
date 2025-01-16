@@ -82,14 +82,14 @@ function App() {
     "If you have 0 files with 0 sandwiches divided between 0 people, how many sandwiches do you get?"
   ];
 
-  const generateResponse = () => {
-    if (hasImage) {
-      return image_responses[Math.floor(Math.random() * image_responses.length)];
-    }
-    else {
-      return no_image_responses[Math.floor(Math.random() * no_image_responses.length)];
-    }
-  }
+  // const generateResponse = () => {
+  //   if (hasImage) {
+  //     return image_responses[Math.floor(Math.random() * image_responses.length)];
+  //   }
+  //   else {
+  //     return no_image_responses[Math.floor(Math.random() * no_image_responses.length)];
+  //   }
+  // }
   
   return (
     <Router>
