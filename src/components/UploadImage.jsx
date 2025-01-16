@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
+import uploadIcon from '../assets/uploadIcon.svg';
 
 const UploadImage = ({ setHasImage, hasImage }) => {
     const [uploadedImage, setUploadedImage] = useState(null); //holds the uploaded image
@@ -23,13 +24,25 @@ const UploadImage = ({ setHasImage, hasImage }) => {
 
     return (
         <div>
-            <input
+            <div class="image-upload">
+                <label for="file-input">
+                    <img src={uploadIcon} alt="Upload Icon" />
+                </label>
+                <input 
+                    id="file-input" 
+                    type="file" 
+                    accept="image/*"
+                    ref={fileInputRef}
+                    onChange={handleImageUpload}
+                />
+            </div>
+            {/* <input
                 ref={fileInputRef}
                 type="file"
                 accept="image/*"
                 onChange={handleImageUpload}
-            />
-            <br />
+            /> */}
+                <br />
                 {uploadedImage && (
                     <div>
                         <img
@@ -41,7 +54,6 @@ const UploadImage = ({ setHasImage, hasImage }) => {
                         <button type="button" onClick={handleRemoveImage}>Remove Uploaded Image</button>
                     </div>
                 )}
-            <br />
         </div>
     );
 

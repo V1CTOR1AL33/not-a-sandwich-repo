@@ -90,7 +90,7 @@ Have fun :)
 
 This project was built with:
 
-- [React](https://reactjs.org/) (because why not?)
+- [React](https://reactjs.org/) and Vite
 
 - The undying human need to classify sandwiches.
 
