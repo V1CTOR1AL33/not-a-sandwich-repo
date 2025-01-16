@@ -94,4 +94,4 @@ This project was built with:
 
 - The undying human need to classify sandwiches.
 
-Thank you for using this app. If it didn’t tell you what you wanted to hear, blame the RNG gods—not us.
+Thank you for using this app. If it didn’t tell you what you wanted to hear, blame the random number generator - not us.
