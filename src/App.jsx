@@ -74,7 +74,7 @@ function App() {
       return no_image_responses[Math.floor(Math.random() * no_image_responses.length)];
     }
   }
-
+  
 
   return (
     <Router>
