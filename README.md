@@ -14,7 +14,7 @@ Have you ever wondered whether something is a sandwich, like a hot dog or a taco
 
 ## Features
 Submit: Allows you to submit images.
-Answers: If the answer is yes, you will be met with a randomly generated congratulations confirming that your image is a sandwich. If it is not, you will either be met with a message denying its sandwich status, or a message correcting you and stating that it is in fact a different sandwich-like object. For this feature, there is an array of phrases ("No silly, that's a ___") and an array of sandwich-like objects that get randomly paired with the phrases ("No silly, that's a burrito"). If the user uploads nothing at all, they will be met with a message acknowledging the absence of an image such as "Is nothing a sandwich?" or "Please upload something. Anything. A sandwich would be ideal."
+Answers: After upload, you will be met with a randomly generated message. You will receive either a congratulations confirming that your image is a sandwich, a message politely denying its sandwich status, or an impartial message of defeat ("who cares anymore?"). If the user uploads nothing at all, they will be met with a message acknowledging the absence of an image such as "Is nothing a sandwich?" or "Please upload something. Anything. A sandwich would be ideal."
 About: Hover above the question mark button, and a modal pop-up will appear explaining what the website does.
 
 ## Installation

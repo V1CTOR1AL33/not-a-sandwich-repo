@@ -73,7 +73,13 @@ function App() {
     "No, NOTHING is not a sandwich. ", 
     "If nothing’s a sandwich, then everything’s a sandwich. Think about it. ", 
     "Please upload something. Anything. A sandwich would be ideal. ", 
-    "Sandwiches can’t upload themselves, you know."
+    "Sandwiches can’t upload themselves, you know. ",
+    "Even an empty sandwich still needs two slices of bread. ",
+    "Is your sandwich invisible? ",
+    "Do you want me to starve? Upload a sandwich! ",
+    "Why even try if you aren't going to upload anything?",
+    "Sorry, I can't find nonexistent sandwiches. ",
+    "If you have 0 files with 0 sandwiches divided between 0 people, how many sandwiches do you get?"
   ];
 
   const generateResponse = () => {
