@@ -178,7 +178,23 @@ h3 {
 
 /* for upload image */
 
-.image-upload>input {
+.image-upload > input {
   display: none;
   cursor: pointer;
+}
+
+.meme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.sandwich-meme {
+  max-width: 80%;
+  max-height: 300px;
+  border: 2px solid #fddbcf;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
