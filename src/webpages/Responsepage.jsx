@@ -6,6 +6,7 @@ const ResponsePage = ({ message, setHasImage, hasImage }) => {
 
   const handleRetry = () => {
     navigate('/');
+    setHasImage(false);
   };
 
   return (

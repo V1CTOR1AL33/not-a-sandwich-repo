@@ -99,7 +99,7 @@ function App() {
             path="/"
             element={
               <HomePage
-                onSubmit={() => setResponseMessage(generateResponse())}
+                onSubmit={() => setResponseMessage(hasImage ? image_responses[Math.floor(Math.random() * image_responses.length)] : no_image_responses[Math.floor(Math.random() * no_image_responses.length)])}
                 setHasImage={setHasImage}
                 hasImage={hasImage}
               />
