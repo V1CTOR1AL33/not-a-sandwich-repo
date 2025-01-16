@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const ResponsePage = ({ message }) => {
+const ResponsePage = ({ message, setHasImage, hasImage }) => {
   const navigate = useNavigate();
 
   const handleRetry = () => {

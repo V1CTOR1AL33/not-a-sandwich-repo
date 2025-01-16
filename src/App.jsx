@@ -92,7 +92,7 @@ function App() {
           />
           <Route
             path="/response"
-            element={<ResponsePage message={responseMessage} />}
+            element={<ResponsePage message={responseMessage} setHasImage={setHasImage} hasImage={hasImage}/>}
           />
         </Routes>
       </div>

@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 
 const UploadImage = ({ setHasImage, hasImage }) => {
-    const [uploadedImage, setUploadedImage] = useState(null);
+    const [uploadedImage, setUploadedImage] = useState(null); //holds the uploaded image
     const fileInputRef = useRef(null);
 
     useEffect(() => {
@@ -23,7 +23,6 @@ const UploadImage = ({ setHasImage, hasImage }) => {
 
     return (
         <div>
-            <h2>Upload a Potential Sandwich!</h2>
             <input
                 ref={fileInputRef}
                 type="file"
