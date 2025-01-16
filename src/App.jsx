@@ -85,6 +85,8 @@ function App() {
             element={
               <HomePage
                 onSubmit={() => setResponseMessage(generateResponse())}
+                setHasImage={setHasImage}
+                hasImage={hasImage}
               />
             }
           />
