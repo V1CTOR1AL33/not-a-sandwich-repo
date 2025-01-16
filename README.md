@@ -1,5 +1,5 @@
 # Is it a Sandwich?
-## By Bianca Rosini, Victoria Lee, and Sandy Zheng
+### By Bianca Rosini, Victoria Lee, and Sandy Zheng
 ### For Upskill 2025
 
 ## Table of Contents
