@@ -100,12 +100,14 @@ function App() {
             element={
               <HomePage
                 onSubmit={() => setResponseMessage(generateResponse())}
+                setHasImage={setHasImage}
+                hasImage={hasImage}
               />
             }
           />
           <Route
             path="/response"
-            element={<ResponsePage message={responseMessage} />}
+            element={<ResponsePage message={responseMessage} setHasImage={setHasImage} hasImage={hasImage}/>}
           />
         </Routes>
         <div>

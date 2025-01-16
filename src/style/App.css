@@ -120,11 +120,12 @@ h3 {
   margin-top: 10px;
   border-radius: 40%;
   cursor: pointer;
-  transform: scale(0.5);
+  transform: scale(0.75);
+  font-size: 25px;
 }
 
 .upload-container:hover {
-  transform: scale(0.51);
+  transform: scale(0.76);
 }
 
 .response-container {
