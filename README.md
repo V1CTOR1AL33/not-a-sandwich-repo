@@ -22,7 +22,7 @@
 
 ## About
 
-Welcome to **"Is it a Sandwich?"** , the most absurdly accurate sandwich-identifying web app (guaranteed to provide random answers). 🥪Ever argued over whether a taco is a sandwich? Wondered if a hot dog fits the "two pieces of bread with stuff in between" definition? This app is here to help—well, kind of. Upload a photo, click submit, and behold as our advanced _random message generator_ tells you whether it's a sandwich or just another disappointment.
+Welcome to **"Is it a Sandwich?"** , the most absurdly accurate sandwich-identifying web app (guaranteed to provide random answers). 🥪Ever argued over whether a taco is a sandwich? Wondered if a hot dog fits the "two pieces of bread with stuff in between" definition? This app is here to help—-well, kind of. Upload a photo, click submit, and behold as our advanced _random message generator_ tells you whether it's a sandwich or just another disappointment.
 No image? No problem! We'll send you on a journey of existential crisis with questions like:
 
 - "Is nothing a sandwich?"
@@ -39,13 +39,14 @@ Remember, life is short. Eat sandwiches responsibly.
 
 - Click the upload button and share your photo of what you _think_ is a sandwich.
   **🎉 Randomly Generated Responses**
+  (ALL responses get confetti for effort)
 - **Sandwich?** "Yes! The universe approves."
 
 - **Not a sandwich?** "Nope. Nice try, though."
 
 - **Who cares?** "Why would you even use this site?"
   **🤔 Existential Non-Sandwich Mode**
-- Forget to upload an image? We’ve got you covered with philosophical gems like:
+- Forget to upload an image? You won't get confetti, but we’ve got you covered with philosophical gems like:
 
   - "Is your sandwich invisible?"
 
