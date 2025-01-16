@@ -37,10 +37,10 @@ Remember, life is short. Eat sandwiches responsibly.
 
 **🖼️ Upload Your Sandwich-Like Object**
 
-- Click the upload button and share your photo of what you _think_ is a sandwich.
+- Click the upload button and share your photo of what you _think_ is a sandwich. You may or may not get confetti... that's also random and unrelated to whether you uploaded a sandwich.
 
 **🎉 Randomly Generated Responses**
-  (ALL responses get confetti for effort)
+
 - **Sandwich?** "Yes! The universe approves."
 
 - **Not a sandwich?** "Nope. Nice try, though."
@@ -48,7 +48,7 @@ Remember, life is short. Eat sandwiches responsibly.
 - **Who cares?** "Why would you even use this site?"
 
 **🤔 Existential Non-Sandwich Mode**
-- Forget to upload an image? You won't get confetti, but we’ve got you covered with philosophical gems like:
+- Forget to upload an image? We’ve got you covered with philosophical gems like:
 
   - "Is your sandwich invisible?"
 
