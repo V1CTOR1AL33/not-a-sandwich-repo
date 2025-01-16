@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import uploadIcon from '../assets/uploadIcon.svg';
 import UploadImage from '../components/UploadImage';
 
 const HomePage = ({ onSubmit, setHasImage, hasImage }) => {
@@ -19,8 +18,8 @@ const HomePage = ({ onSubmit, setHasImage, hasImage }) => {
         <UploadImage setHasImage={setHasImage} hasImage={hasImage} />
       </div>
       <div className="submit-container">
-      <button className="submit-button" onClick={handleSubmit} >
-          Submit
+        <button className="submit-button" onClick={handleSubmit} >
+            Submit
         </button>
       </div>
     </div>
