@@ -4,21 +4,11 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './webpages/Homepage.jsx';
 import ResponsePage from './webpages/Responsepage.jsx';
-import Modal from 'react-modal';
 
 function App() {
 
   const [hasImage, setHasImage] = useState(false); 
   const [responseMessage, setResponseMessage] = useState(''); 
-  const [showModal, setShowModal] = useState(false);
-
-  const handleMouseEnter = () => {
-    setShowModal(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowModal(false);
-  };
 
   const image_responses = [
     "Yes, everything is a sandwich. ", 
@@ -46,6 +36,7 @@ function App() {
     "As if you care. ", 
     "It is either a sandwich or not a sandwich. ", 
     "It is both a sandwich and not a sandwich. ", 
+    "Just because I put two breads together doesn't make me a sandwich", 
     "It is neither a sandwich nor not a sandwich. ", 
     "Maybe. But what even is a sandwich? ", 
     "It can be, if you believe hard enough. ", 
@@ -81,15 +72,6 @@ function App() {
     "Sorry, I can't find nonexistent sandwiches. ",
     "If you have 0 files with 0 sandwiches divided between 0 people, how many sandwiches do you get?"
   ];
-
-  // const generateResponse = () => {
-  //   if (hasImage) {
-  //     return image_responses[Math.floor(Math.random() * image_responses.length)];
-  //   }
-  //   else {
-  //     return no_image_responses[Math.floor(Math.random() * no_image_responses.length)];
-  //   }
-  // }
   
   return (
     <Router>
@@ -110,28 +92,6 @@ function App() {
             element={<ResponsePage message={responseMessage} setHasImage={setHasImage} hasImage={hasImage} />}
           />
         </Routes>
-        <div>
-          
-        </div>
-        <div className="about-container">
-          <button
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            className="about-button"
-          >
-            ?
-          </button>
-          {showModal && (
-            <Modal
-              isOpen={showModal}
-              className="modal"
-              overlayClassName="overlay"
-              onRequestClose={handleMouseLeave}
-            >
-              <p>Have you ever wondered if something is a sandwich? Try this out! </p>
-            </Modal>
-          )}
-        </div>
       </div>
     </Router>
   );
