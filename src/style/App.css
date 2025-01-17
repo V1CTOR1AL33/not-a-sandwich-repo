@@ -178,9 +178,21 @@ h3 {
 
 /* for upload image */
 
-.image-upload > input {
-  display: none;
+.image-upload label {
   cursor: pointer;
+  display: inline-block;
+}
+
+.image-upload label img {
+  cursor: pointer;
+}
+
+.image-upload label img:hover {
+  filter: grayscale(40%);
+}
+
+.image-upload>input {
+  display: none;
 }
 
 .meme-container {
