@@ -4,21 +4,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HomePage from './webpages/Homepage.jsx';
 import ResponsePage from './webpages/Responsepage.jsx';
-import Modal from 'react-modal';
 
 function App() {
 
   const [hasImage, setHasImage] = useState(false); 
   const [responseMessage, setResponseMessage] = useState(''); 
   const [showModal, setShowModal] = useState(false);
-
-  const handleMouseEnter = () => {
-    setShowModal(true);
-  };
-
-  const handleMouseLeave = () => {
-    setShowModal(false);
-  };
 
   const image_responses = [
     "Yes, everything is a sandwich. ", 
@@ -102,28 +93,6 @@ function App() {
             element={<ResponsePage message={responseMessage} setHasImage={setHasImage} hasImage={hasImage} />}
           />
         </Routes>
-        <div>
-          
-        </div>
-        <div className="about-container">
-          <button
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-            className="about-button"
-          >
-            ?
-          </button>
-          {showModal && (
-            <Modal
-              isOpen={showModal}
-              className="modal"
-              overlayClassName="overlay"
-              onRequestClose={handleMouseLeave}
-            >
-              <p>Have you ever wondered if something is a sandwich? Try this out! </p>
-            </Modal>
-          )}
-        </div>
       </div>
     </Router>
   );
