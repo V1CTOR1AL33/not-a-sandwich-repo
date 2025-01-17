@@ -8,7 +8,7 @@ const ResponsePage = ({ message, setHasImage, hasImage }) => {
 
   // Use import.meta.glob to dynamically import images
   const memeImages = useMemo(() => {
-    const memes = import.meta.glob('../assets/memes/*.{png,jpg,jpeg,svg}', { eager: true });
+    const memes = import.meta.glob('../assets/memes/*.{png,jpg,jpeg,svg,gif,webp}', { eager: true });
     return Object.values(memes).map((module) => module.default);
   }, []);
 

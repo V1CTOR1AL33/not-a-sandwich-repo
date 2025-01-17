@@ -24,8 +24,8 @@ const UploadImage = ({ setHasImage, hasImage }) => {
 
     return (
         <div>
-            <div class="image-upload">
-                <label for="file-input">
+            <div className="image-upload">
+                <label htmlFor="file-input">
                     <img src={uploadIcon} alt="Upload Icon" />
                 </label>
                 <input 
@@ -36,12 +36,6 @@ const UploadImage = ({ setHasImage, hasImage }) => {
                     onChange={handleImageUpload}
                 />
             </div>
-            {/* <input
-                ref={fileInputRef}
-                type="file"
-                accept="image/*"
-                onChange={handleImageUpload}
-            /> */}
                 <br />
                 {uploadedImage && (
                     <div>
