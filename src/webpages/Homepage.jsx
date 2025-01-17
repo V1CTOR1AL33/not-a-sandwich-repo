@@ -47,6 +47,7 @@ const HomePage = ({ onSubmit, setHasImage, hasImage }) => {
               className="modal"
               overlayClassName="overlay"
               onRequestClose={handleMouseLeave}
+              ariaHideApp={false}
             >
               <p>Have you ever wondered if something was a sandwich? Upload an image and find out! </p>
             </Modal>

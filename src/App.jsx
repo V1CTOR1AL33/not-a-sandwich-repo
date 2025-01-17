@@ -9,7 +9,6 @@ function App() {
 
   const [hasImage, setHasImage] = useState(false); 
   const [responseMessage, setResponseMessage] = useState(''); 
-  const [showModal, setShowModal] = useState(false);
 
   const image_responses = [
     "Yes, everything is a sandwich. ", 
